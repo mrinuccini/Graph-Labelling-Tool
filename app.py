@@ -1,7 +1,7 @@
 from pages.home_callbacks import *
 
 def main():
-    app.run(port=8050)
+    app.run(debug=True)
 
 
 if __name__ == "__main__":
