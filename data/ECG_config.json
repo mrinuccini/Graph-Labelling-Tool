@@ -1,0 +1,31 @@
+{
+  "data-file": "ECG.csv",
+  "expanded": false,
+  "timestamp_row": null,
+  "data_sampling_ratio": 10,
+  "data_slicing": -1,
+  "coefficient": 0.5,
+  "labels": {
+    "bradycardie": {
+      "name": "bradycardie",
+      "color": "#ffa600"
+    },
+
+    "normal": {
+      "name": "normal",
+      "color": "#bc5090"
+    },
+
+    "tachycardie": {
+      "name": "tachycardie",
+      "color": "#003f5c"
+    }
+  },
+  "legend": [
+    {
+      "name": "ECG",
+      "line-style": "solid",
+      "line-color": "red"
+    }
+  ]
+}

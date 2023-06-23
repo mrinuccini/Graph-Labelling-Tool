@@ -1,0 +1,290 @@
+/* (https://www.flaticon.com/fr/packs/multimedia-collection) */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+
+:root
+{
+    --soft_background: #fafafc;
+    --soft_borders: #eaeaed;
+    --component_borders: #aaaaaf;
+    --text: #3a3b44;
+    --constrat: #2b6cb0;
+
+    --dark_soft_background: #2a2b35;
+    --dark_soft_border: #5a5b63;
+    --dark_components_border: #aaaaaf;
+    --dark_text: #fafafc;
+}
+
+html
+{
+    background-color: var(--soft_background);
+    overflow-x: hidden;
+    font-family: 'Montserrat';
+}
+
+.mainDiv
+{
+    background-color: var(--soft_background);
+}
+
+h1
+{
+    font-weight: 700;
+    font-size: 34pt;
+    text-align: center;
+    color: var(--text);
+}
+
+h2
+{
+    font-weight: 500;
+    font-size: 28pt;
+    text-align: center;
+    color: var(--text);
+}
+
+.sessionIDDiv
+{
+    font-weight: 400;
+    font-size: 14pt;
+    color: var(--text);
+}
+
+.uploader
+{
+    width: 90%;
+    height: 60px;
+    line-height: 60px;
+    border-width: 1px;
+    border-radius: 5px;
+    border-style: solid;
+    text-align: center;
+    color: var(--text);
+    font-size: 20pt;
+    font-weight: 400;
+    margin-right: 40px;
+    display: block;
+    margin: 10px auto;
+    cursor: pointer;
+
+    transition: background-color linear 250ms;
+}
+
+.uploader:hover
+{
+    background-color: var(--soft_borders);
+    transition: background-color linear 250ms;
+}
+
+.a
+{
+    color: var(--constrat);
+}
+
+.uploader img
+{
+    height: 30px;
+    width: 30px;
+    margin-right: 20px;
+}
+
+.actionsButton
+{
+    width: fit-content;
+    min-width: 200px;
+    height: 50px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 22pt;
+    color: var(--text);
+    background-color: var(--soft_background);
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    transition: background-color linear 250ms;
+    cursor: pointer;
+}
+
+.actionsButton:hover
+{
+    background-color: var(--soft_borders);
+    transition: background-color linear 250ms;
+}
+
+.actionsButton img
+{
+    height: 25px;
+    width: 25px;
+    margin-right: 10px;
+}
+
+p
+{
+    font-weight: 400pt;
+    color: var(--text);
+    font-size: 22pt;
+}
+
+.labelDiv
+{
+    background-color: var(--soft_background);
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.1);
+}
+
+.dropdown
+{
+    font-size: 15pt;
+    font-weight: 400;
+    color: var(--text);
+    width: 10vw;
+    height: inherit;
+    margin-left: 30px;
+}
+
+.input
+{
+    font-size: 15pt;
+    font-weight: 400;
+    color: var(--text);
+    width: 10vw;
+    height: inherit;
+    margin-left: 60px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    height: 60px;
+}
+
+.labelActionButton
+{
+    width: fit-content;
+    min-width: 5vw;
+    height: 35px;
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 13pt;
+    color: var(--text);
+    background-color: var(--soft_background);
+    border: 1px solid var(--text);
+    border-radius: 5px;
+    transition: background-color linear 250ms;
+    cursor: pointer;
+    margin-left: 60px;
+}
+
+.labelActionButton:hover
+{
+    background-color: var(--soft_borders);
+    transition: background-color linear 250ms;
+}
+
+.labelActionButton img
+{
+    height: 15px;
+    width: 15px;
+    margin-right: 10px;
+}
+
+.link
+{
+    text-decoration: none;
+    color: var(--text);
+}
+
+.caption
+{
+    font-size: 8pt;
+}
+
+@media (prefers-color-scheme: dark) {
+    html
+    {
+        background-color: var(--dark_soft_background);
+    }
+
+    h1
+    {
+        color: var(--dark_text);
+    }
+
+    h2
+    {
+        color: var(--dark_text);
+    }
+
+    p
+    {
+        color: var(--dark_text);
+    }
+
+    .mainDiv
+    {
+        background-color: var(--dark_soft_background);
+    }
+
+    .uploader
+    {
+        color: var(--dark_text);
+    }
+
+    .uploader:hover
+    {
+        background-color: var(--dark_soft_border);
+    }
+
+    img
+    {
+        filter: invert(100%);
+    }
+
+    .actionsButton
+    {
+        background-color: var(--dark_soft_background);
+        color: var(--dark_text);
+        border-color: var(--dark_text);
+    }
+
+    .actionsButton:hover
+    {
+        background-color: var(--dark_soft_border);
+    }
+
+    .labelActionButton
+    {
+        background-color: var(--dark_soft_background);
+        color: var(--dark_text);
+        border-color: var(--dark_text);
+    }
+
+    .labelActionButton:hover
+    {
+        background-color: var(--dark_soft_border);
+    }
+
+    .link
+    {
+        color: var(--dark_text);
+    }
+
+    .sessionIDDiv
+    {
+        color: var(--dark_text);
+    }
+
+    .labelDiv
+    {
+        background-color: var(--dark_soft_background);
+    }
+
+    .input
+    {
+        border-color: var(--dark_text);
+        color: var(--dark_text);
+        background-color: var(--dark_soft_background);
+    }
+
+    .dash-dropdown
+    {
+        background: var(--dark_soft_background);
+        color: var(--dark_text);
+    }
+}
